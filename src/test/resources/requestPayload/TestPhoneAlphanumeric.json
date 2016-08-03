@@ -1,0 +1,6 @@
+{
+	"firstName": "testFirstName",    
+    "lastName" :"testLastname",
+    "email": "support@lab.com",
+    "phoneNumber":"123abcdefg"
+}
