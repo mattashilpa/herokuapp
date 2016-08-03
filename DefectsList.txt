@@ -1,0 +1,41 @@
+Defects 
+
+Delete 
+1. DELETE a contact resource. GET by ID returns response  "null". Should have proper error message "Contact does not exist."
+
+2. DELETE by invalid ID - Response should give proper error message "Contact does not exist." but actual response "Internal Server Error"
+
+3. DELETE by non existing ID - Response code should be 500. Actual status code = 204 
+	Response should give proper error message "Contact does not exist." but actual response "Internal Server Error"
+
+GET
+1. GET by invalid ID - Response should give proper error message "Contact does not exist." but actual response "Internal Server Error"
+
+2. GET by non existing ID - Response code should be 500. Actual status code = 200 
+	Response should give proper error message "Contact does not exist." but actual response "Internal Server Error"
+
+
+*****POST*****
+1.Post with AdditionalRequestFields - Expected Status Code = 400 || Actual Status Code = 204
+
+2.Post FirstNameNumeric - Expected Status Code = 400 || Actual Status Code = 204
+
+3. Post first name space - Expected Status Code = 400 || Actual Status Code = 204
+
+4. Post Last name numeric - Expected Status Code = 400 || Actual Status Code = 204
+
+5. Post Last name space - Expected Status Code = 400 || Actual Status Code = 204
+
+
+*****PUT*****
+1.Put with AdditionalRequestFields - Expected Status Code = 400 || Actual Status Code = 204
+
+2.Put FirstNameNumeric - Expected Status Code = 400 || Actual Status Code = 204
+
+3. Put first name space - Expected Status Code = 400 || Actual Status Code = 204
+
+4. Put Last name numeric - Expected Status Code = 400 || Actual Status Code = 204
+
+5. Put Last name space - Expected Status Code = 400 || Actual Status Code = 204
+
+6. Put with non exsiting contact id in URL - Expected Status Code = 500 || Actual Status Code = 204, Expected response body : "Internal Server Error" Actual response"".
