@@ -6,11 +6,11 @@
 	<test verbose="2" name="P1" annotations="JDK">
 
 		<classes>
-			<class name="com.intuit.demo.herokuapp.PostTest"></class>
-			<class name="com.intuit.demo.herokuapp.PutTest"></class>
-			<class name="com.intuit.demo.herokuapp.GetTest"></class>
-			<class name="com.intuit.demo.herokuapp.DeleteTest"></class>
-			<class name="com.intuit.demo.herokuapp.GeneralTest"></class>
+			<class name="com.intuit.rest.herokuapp.PostTest"></class>
+			<class name="com.intuit.rest.herokuapp.PutTest"></class>
+			<class name="com.intuit.rest.herokuapp.GetTest"></class>
+			<class name="com.intuit.rest.herokuapp.DeleteTest"></class>
+			<class name="com.intuit.rest.herokuapp.GeneralTest"></class>
 		</classes>
 	</test>
 </suite>
