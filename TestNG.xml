@@ -10,7 +10,7 @@
 			<class name="com.intuit.demo.herokuapp.PutTest"></class>
 			<class name="com.intuit.demo.herokuapp.GetTest"></class>
 			<class name="com.intuit.demo.herokuapp.DeleteTest"></class>
-			<class name="com.intuit.demo.herokuapp.AuthenticationTest"></class>
+			<class name="com.intuit.demo.herokuapp.GeneralTest"></class>
 		</classes>
 	</test>
 </suite>
